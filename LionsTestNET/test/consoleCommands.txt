@@ -1,0 +1,8 @@
+LionShare.deployed().then(function(i){token = i})
+token.totalSupply().then(function(i){supply = i})
+supply.toNumber()
+
+
+web3 -----
+token.transfer(web3.eth.accounts[1],1 { METADATA })
+
