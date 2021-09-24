@@ -155,4 +155,6 @@ theDAOTransferEvent.watch(function(error, result){
     result.transactionHash + "\t" + result.transactionIndex);
 });
 
+
+web3.eth.personal.sign("Hello world", "0xc0C0A69Cf9B2D690A57d3f2C639261DD1F4351F8", "test password!").then(console.log);
 */
